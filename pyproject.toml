@@ -7,9 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     "autogen-agentchat>=0.4.9.2",
     "autogen-ext[grpc,mcp,ollama,openai]>=0.4.9.2",
+    "fastapi>=0.116.1",
     "pillow>=11.3.0",
     "pyautogen>=0.10.0",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
+    "python-multipart>=0.0.20",
     "requests>=2.32.4",
+    "uvicorn>=0.35.0",
 ]
